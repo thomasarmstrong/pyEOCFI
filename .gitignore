@@ -1,0 +1,35 @@
+.pytest_cache
+*.log
+
+# Compiled files
+*.py[co]
+*.a
+*.o
+*.so
+__pycache__
+
+#EOCFI software
+external_libraries
+
+# ipython notebook checkpoints
+.ipynb_checkpoints
+.cache*
+.cache
+
+# Visual Studio Code
+.vscode
+
+# Packages/installer info
+*.egg
+*.eggs
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+distribute-*.tar.gz

@@ -1,0 +1,26 @@
+# A conda environment with all useful package for ctapipe developers
+name: pyEOCFI
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - astropy>=5.3,<7
+  - ctypes
+  - xarray
+  - ipython
+  - ipywidgets
+  - jupyter
+  - matplotlib
+  - numba>=0.56
+  - numpy>=1.22
+  - numpydoc
+  - pytest
+  - pytest-cov
+  - pytest-runner
+  - pytest-astropy-header
+  - pyyaml
+  - scipy
+  - setuptools
+  - pyproj
+  
